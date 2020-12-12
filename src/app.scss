@@ -1,0 +1,126 @@
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+@import '~@nativescript/theme/core';
+@import '~@nativescript/theme/sky';
+
+// Override variables here
+
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+
+.fa {
+    font-family: FontAwesome, fontawesome-webfont;
+  }
+/*
+.btn{
+    color:#fff
+}
+.btn-main{
+    background-color:  #53ba82;
+}
+
+.btn-cancel{
+    background-color:  red;
+}
+
+ActionBar {
+    background-color: #53ba82;
+    color: #ffffff;
+  }
+  */
+
+  ActionBar .title{
+    font-size:18pt;
+    font-weight: 500;
+  }
+  .btn{
+    color:#fff
+}
+  .btn-cancel{
+    background-color:  red;
+}
+
+.font-done{
+  color:  #218838;
+  font-weight: bold;
+}
+  .fab-button {
+    height: 60;
+    width: 60;
+    margin-bottom: 15;
+    margin-right: 10;
+    margin-left: 10;
+    background-color: #30bcff;
+    horizontal-align: right;
+    vertical-align: bottom;
+    color:#fff
+  }
+  .fab-button-sm {
+    height: 45;
+    width: 45;
+    margin-bottom: 22;
+    margin-right: 10;
+    margin-left: 10;
+    background-color:#00BCD4;
+    horizontal-align: right;
+    vertical-align: bottom;
+    color:#fff
+  }
+  .drawer-header {
+      padding: 20 16;
+      background-color: #FAFAFA;
+      color: black;
+      font-size: 20pt;
+  }
+  
+  .drawer-item {
+      padding: 10 15;
+      color: #333333;
+      font-size: 16;
+     
+  }
+
+  .modal-header {
+    background-color:  #30bcff;
+    color: #fff ;
+    font-weight: 500;
+    padding: 15; 
+    font-size: 18pt
+  }
+
+  .item-selected{
+    background-color: #B2EBF2;
+    color:black
+  }
+
+  DataFormEditorCore {
+    background-color: white;
+    border-color:#00796B;
+    border-width: 1;
+    height: 40;
+    border-radius: 10;
+    font-size: 14pt;
+    padding-left: 10pt;
+}
+
+
+DataFormEditorLabel {
+  font-size: 14pt;
+}
+
+.category{
+  padding: 15; background-color: #B2EBF2;font-weight:bold;font-size:13
+}
+
+.time{
+  font-weight:bold;font-size:13
+}
+
+.description{
+  background-color:#f7f5fb;
+  font-size:15
+}
+
+.color-done{
+  color:green
+}

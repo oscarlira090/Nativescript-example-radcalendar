@@ -1,0 +1,7 @@
+export const SAVE = 'SAVE'
+export const UPDATE = 'UPDATE'
+export const UPDATE_DONE = 'UPDATE_DONE'
+export const DELETE = 'DELETE'
+export const LOAD_TASKS = 'LOAD'
+export const LOAD_BY_TITLE_AND_DATES = 'LOAD_BY_TITLE_AND_DATES'
+export const SET_TASK = 'SET_TASK'
